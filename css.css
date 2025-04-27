@@ -1,0 +1,161 @@
+<style>
+    * {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.hero,
+  .tentang-saya {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+  }
+
+  .center-text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+  .intro {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    gap: 30px;
+  }
+
+  
+  
+body {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #20551e;
+    color: #1d1c1a;
+}
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #beecb9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgb(43, 116, 67);
+}
+.hero,
+.tentang,
+.portfolio,
+.opini,
+.kontak,
+footer {
+    padding: 2rem;
+    text-align: center;
+}
+
+.hero,
+.tentang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tabel-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: auto;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: center;
+  }
+  
+
+.opini {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    text-align: center;
+}
+.opini .card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.opini-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    gap: 20px; /* jarak antar gambar */
+    justify-items: center; /* supaya gambar ke tengah */
+    margin-top: 20px;
+  }
+  
+  .opini-item {
+    text-align: center;
+  }
+  
+  .opini-item img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .opini-item p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+.kontak input,
+.kontak textarea {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+
+.kontak {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.center-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #20551e;
+}
+</style>
